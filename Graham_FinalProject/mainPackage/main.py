@@ -15,7 +15,7 @@ import requests
 file = open('EncryptedGroupHints.json')
 data = json.load(file)
 
-# test yay
+# test
 
 '''
 json.load('EncryptedGroupHints.json')
