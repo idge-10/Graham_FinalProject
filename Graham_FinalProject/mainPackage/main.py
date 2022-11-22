@@ -12,11 +12,14 @@ Anything else that's relevant:
 import json  #built in, no pip required (if needed, uses "jsons" import)
 import requests
 
-file = open('EncryptedGroupHints.json')
-data = json.load(file)
+# file = open('EncryptedGroupHints.json')
+# data = json.load(file)
 
-# test
+file_path = "EncryptedGroupHints.json"
 
+with open(file=file_path, mode='r') as read_file:
+    object = json.load(read_file)
+    print(object)
 '''
 json.load('EncryptedGroupHints.json')
 json_string = response.content
