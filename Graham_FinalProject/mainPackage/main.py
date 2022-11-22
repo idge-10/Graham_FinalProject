@@ -1,5 +1,5 @@
 """
-Name: Isaac Hedges, Ben Truax 
+Name: Isaac Hedges, Ben Truax, Jack Hutz
 email: hedgesic@mail.uc.edu, truaxbp@mail.uc.edu
 Assignment: Assignment11
 Course: IS 4010
