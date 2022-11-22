@@ -1,10 +1,10 @@
 """
 Name: Isaac Hedges, Ben Truax, Jack Hutz
 email: hedgesic@mail.uc.edu, truaxbp@mail.uc.edu
-Assignment: Assignment11
+Assignment: Assignment12
 Course: IS 4010
 Semester/Year: Fall 2022
-Brief Description: Writing using an API to find unique information
+Brief Description: 
 Citations:
 Anything else that's relevant: 
 """
