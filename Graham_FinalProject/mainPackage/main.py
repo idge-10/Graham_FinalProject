@@ -12,11 +12,19 @@ Anything else that's relevant:
 import json  #built in, no pip required (if needed, uses "jsons" import)
 import requests
 
-response = requests.get('https://api.wheretheiss.at/v1/satellites/25544')
+file = open('EncryptedGroupHints.json')
+data = json.load(file)
+
+
+
+'''
+json.load('EncryptedGroupHints.json')
 json_string = response.content
+
 
 # Parse the results
 parsed_json = json.loads(json_string) # Now we have a python dictionary
 
 # Check on parsed results
 print(parsed_json)
+'''
