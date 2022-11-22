@@ -8,14 +8,29 @@ Brief Description:
 Citations:
 Anything else that's relevant: 
 """
-
+from functionPackage.function import file_path_Encrypt
+from functionPackage.function import file_path_English
 import json  #built in, no pip required (if needed, uses "jsons" import)
 import requests
+from functionPackage.function import file_path_English
+
+# file_path_English()
+
+file_path_Encrypt()
 
 
-file_path = "EncryptedGroupHints.json"
+'''
+# find the files
+file_path_English = "EncryptedGroupHints.json"
+file_path_Encrypted = "EncryptedGroupHints.json"
 
-with open(file=file_path, mode='r') as read_file:
+# open the files
+with open(file=file_path_Encrypted, mode='r') as read_file:
+    object = json.load(read_file)
+with open(file=file_path_Encrypted, mode='r') as read_file:
     object = json.load(read_file)
     print(object['Graham'])
+    
+if object['Graham']:
+ '''   
     
