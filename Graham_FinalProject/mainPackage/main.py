@@ -17,4 +17,5 @@ file_path = "EncryptedGroupHints.json"
 
 with open(file=file_path, mode='r') as read_file:
     object = json.load(read_file)
-    print(object)
+    print(object['Graham'])
+    
