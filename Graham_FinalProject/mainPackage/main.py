@@ -8,17 +8,21 @@ Brief Description:
 Citations:
 Anything else that's relevant: 
 """
-from functionPackage.function import parseJsonData
-from functionPackage.function import file_path_Encrypt
-from functionPackage.function import file_path_English
+from functionPackage.function import *
 import json  #built in, no pip required (if needed, uses "jsons" import)
 import requests
 from functionPackage.function import file_path_English
-
+from PIL import Image, ImageFilter, ImageDraw, ImageFont
+import os, sys
+# import requests
+from io import BytesIO
+# This one is in Main.py only
+from image_functions import *
 # file_path_English()
 
 # file_path_Encrypt()
-
+my_image = load_image("bridge.jpg")
+my_image.show(my_image)
     
 
 

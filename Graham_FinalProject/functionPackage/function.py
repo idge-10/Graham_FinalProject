@@ -4,6 +4,10 @@ Created on Nov 22, 2022
 @author: 123is
 '''
 import json
+from PIL import Image, ImageFilter, ImageDraw, ImageFont
+import os, sys
+# import requests
+#from io import BytesIO
 
 def file_path_Encrypt():
     Encrypt = "EncryptedGroupHints.json"
@@ -25,6 +29,12 @@ def file_path_English():
     file_contents2 = English.read()
     print (file_contents2)
     English.close()
-    
+def load_image( filename ) :
+    try:
+        myimage = Image.open(filename)
+        myimage.load()
+        return myimage
+    except:
+        return None
    
     
