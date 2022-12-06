@@ -13,6 +13,6 @@ Anything else that's relevant:
 
 from functionPackage.function import *
 
-encrypted('EncryptedGroupHints.json','english.txt','Graham')
+Code = encrypted('EncryptedGroupHints.json','english.txt','Graham')
 # my_image = load_image("SiriusAndViolet.jpg")
 # my_image.show(my_image)

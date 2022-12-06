@@ -14,7 +14,17 @@ def encrypted(Encrypt,English,Code):
         
         English = open(English, "r")
         data = English.read()
-        location = ''
+        data_into_list = data.split("\n")
+        
+        for num in Coordiates:
+            location = (data_into_list[int(num)])
+            print(location)
+        
+        temp = set(English)
+        res = [i for i, val in enumerate() if val in temp]  
+        
+        
+        
         
         
 def load_image( filename ) :
@@ -24,6 +34,9 @@ def load_image( filename ) :
         return myimage
     except:
         return None
+    
+
+ 
 
 '''
 def file_path_Encrypt():
